@@ -100,8 +100,8 @@ body {
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-    padding: 0.8rem 1.5rem;
-    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
     border-radius: 10px;
     transition: all 0.3s ease;
 }

@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
 
         generateBtn.addEventListener('click', () => {
-            window.location.href = '/';
+            window.location.href = '/Ramadan%20Kareem/templates/index.html';
         });
-    }, 10000);
+    }, 5000);
 
     // Add fade-in animation for the card
     document.querySelector('.greeting-card').style.opacity = '0';

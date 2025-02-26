@@ -60,8 +60,12 @@ function updateLanguage(lang) {
 
     if (lang === 'ar') {
         document.body.setAttribute('dir', 'rtl');
+        document.getElementById("copy-btn").style="border-radius: 0 10px 10px 0;"
+        document.getElementById("view-btn").style="border-radius: 10px 0 0 10px;"
     } else {
         document.body.setAttribute('dir', 'ltr');
+        document.getElementById("copy-btn").style="border-radius: 10px 0 0 10px;"
+        document.getElementById("view-btn").style="border-radius: 0 10px 10px 0;"
     }
 }
 
@@ -79,7 +83,7 @@ document.querySelector('.generate-btn').addEventListener('click', () => {
     }
 
     const url = new URL(window.location.href);
-    url.pathname = '/Ramadan-Kareem/templates/greeting.html';
+    url.pathname = 'Ramadan%20Kareem/templates/greeting.html';
     url.searchParams.set('name', encodeURIComponent(name));
     url.searchParams.set('lang', currentLang);
 
