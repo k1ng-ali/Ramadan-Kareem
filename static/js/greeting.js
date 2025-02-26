@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
 
         generateBtn.addEventListener('click', () => {
-            window.location.href = '/Ramadan%20Kareem/templates/index.html';
+            window.location.href = '/Ramadan-Kareem/templates/index.html';
         });
     }, 5000);
 

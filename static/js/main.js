@@ -83,7 +83,7 @@ document.querySelector('.generate-btn').addEventListener('click', () => {
     }
 
     const url = new URL(window.location.href);
-    url.pathname = 'Ramadan%20Kareem/templates/greeting.html';
+    url.pathname = 'Ramadan-Kareem/templates/greeting.html';
     url.searchParams.set('name', encodeURIComponent(name));
     url.searchParams.set('lang', currentLang);
 
